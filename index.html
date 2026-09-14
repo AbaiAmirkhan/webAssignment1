@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title> 
+    
+    
+    <link rel="icon" type="image/png" href="https://via.placeholder.com/32">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: #f4f6f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <h1 id="main-heading">Abai Amirkhan</h1> 
+        <h2>Course:WEB Technologies</h2> 
+        <h3>About Me</h3>
+        
+        
+        <p style="color: #2c3e50;">
+            Hello,my name is Amirkhan,im a student of AITU
+        </p>
+    </div>
+
+   
+    <div class="main-content">
+        
+        <section class="card">
+            <h2>My Hobbies & Favorite Sites</h2>
+            <h3>Ordered List (Hobbies)</h3>
+            <ol>
+                <li>Playing games</li>
+                <li>Watching videos</li>
+                <li>Listening to music</li>
+            </ol>
+
+            <h3>Unordered List (Favorite Websites)</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Media & Interactive Elements</h2>
+            <img src="C:\Users\Acer\Pictures\Screenshots\Снимок экрана 2026-02-11 172948.png" alt="nibelheim" class="profile-img">
+            <br><br>
+            <button class="btn">Click Me</button>
+        </section>
+
+        <section class="card">
+            <h2>Class Schedule</h2>
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Technologies</td>
+                        <td>Monday</td>
+                        <td>09:00 - 10:30</td>
+                    </tr>
+                    <tr>
+                        <td>Discrete Mathematics</td>
+                        <td>Wednesday</td>
+                        <td>11:00 - 12:30</td>
+                    </tr>
+                    <tr>
+                        <td>russian language</td>
+                        <td>Friday</td>
+                        <td>14:00 - 15:30</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            
+        </section>
+
+        <section class="card">
+            <h2>Emojis</h2>
+            <p class="highlight">
+                my mood today is great😊🚀💻
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Contact & Preferences</h2>
+            <form action="#" method="POST" class="user-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="color">Favorite Color:</label>
+                    <input type="color" id="color" name="favorite_color" value="#3498db">
+                </div>
+
+                <button type="submit" class="btn btn-submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="card position-container">
+            <h2>CSS Positioning Showcase</h2>
+            <div class="pos-box static-box">Static Position</div>
+            <div class="pos-box relative-box">Relative Position (Shifted)</div>
+            <div class="pos-box absolute-box">Absolute Position</div>
+        </section>
+
+        <section class="card">
+            <h2>Float & Clear Showcase</h2>
+            <div class="float-box float-left">Floated Left</div>
+            <div class="float-box float-right">Floated Right</div>
+            <div class="clearfix"></div> <!-- Clear fix to prevent layout overlap -->
+            <p>This text appears cleanly below the floated boxes using clear.</p>
+        </section>
+
+    </div>
+
+    
+
+</body>
+</html>
