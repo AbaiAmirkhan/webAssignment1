@@ -51,7 +51,7 @@ Step 20:<img width="811" height="194" alt="image" src="https://github.com/user-a
 1. setup Configured the development environment in VS Code and established the directory tree containing `index.html` and `style.css`
 2. HTML Built the structural components step-by-step from base semantic markup to forms and tables
 3. CSS :Structured the stylesheet by grouping selectors into base rules, custom ID/class styling, box-model dimensions, and positioning strategies
-4. **Publishing:** Deployed the application to GitHub Pages and generated documentation[cite: 1].
+4. **Publishing:** Deployed the application to GitHub Pages and generated documentation
 
 ---
 
