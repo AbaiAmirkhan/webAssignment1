@@ -55,5 +55,5 @@ Step 20:<img width="811" height="194" alt="image" src="https://github.com/user-a
 
 ---
 
-## Published Website Link
-* **GitHub Pages URL:** [Insert your published GitHub Pages link here][cite: 1]
+Published Website Link
+file:///C:/Users/Acer/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/index.html
